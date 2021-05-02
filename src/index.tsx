@@ -1,4 +1,3 @@
-import { test } from './test.js';
+import path from 'node:path';
 
-console.log('Hello Webpack Project.');
-test();
+console.log(path);
